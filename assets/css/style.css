@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+a{
+    text-decoration: none;   
+
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer {
+    background-color: #d16222;
+    display: flex;
+   align-items: flex-end; 
+}
+
+.redes__copyright{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    min-width: 30%;
+    justify-content: center;
+}
+
+.copyright{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;}
+
+.tabla__redes{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.tabla__redes img{
+    max-width: 50%;
+}
+
+.redes__img{
+    display: flex;
+    width: 20%;
+    max-width: 25%;
+    padding: 15px;
+    align-content: center;
+    justify-content: center;
+    transition: 1s;
+}
+div .redes__img:hover{
+    transform: rotateZ(350deg);
+    background-color: #d16222;
+    width: 30%;
+}
+
+.inicio_academy{
+    padding: 10px;
+}
